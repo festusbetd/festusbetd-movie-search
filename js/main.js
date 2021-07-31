@@ -135,6 +135,8 @@ var settings = {
   "url": "http://3.91.159.200/",
   "method": "POST",
   "timeout": 0,
+  "crossDomain" : true,
+  "Access-Control-Allow-Origin": "*",
   "headers": {
     "Content-Type": "application/x-www-form-urlencoded"
   },
