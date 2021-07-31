@@ -1,4 +1,5 @@
 <?php
+header('Access-Control-Allow-Origin: *');
 $requestMethod = $_SERVER["REQUEST_METHOD"];
 include('../class/Movie.php');
 $movie= new Movie();
