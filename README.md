@@ -1,5 +1,5 @@
 # MOVIE-SEARCH
-A web app build with Bootstrap JavaScript (JQuery) using axios client for making requests and TMDb API to fetch Movie data.
+A web app build with Bootstrap JavaScript (JQuery) using axios client for making requests and Omdbapi API to fetch Movie data.
 # How to run
 + clone the repository: ```https://github.com/festusbetd/movie-search.git```
 + run ```index.html``` on any server.
@@ -22,4 +22,7 @@ A web app build with Bootstrap JavaScript (JQuery) using axios client for making
   ````release_date` varchar(255) DEFAULT NULL,```
  ``` `image` varchar(255) DEFAULT NULL```
 ```) ENGINE=InnoDB DEFAULT CHARSET=latin1;```
+
+### Screenshots
+
 
