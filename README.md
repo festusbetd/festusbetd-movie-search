@@ -24,8 +24,12 @@ A web app build with Bootstrap JavaScript (JQuery) using axios client for making
 ```) ENGINE=InnoDB DEFAULT CHARSET=latin1;```
 
 ### Screenshots
-+ DDL statements: MainPage
++ MainPage:
 ![alt tag](https://github.com/festusbetd/movie-search/blob/main/MainPage.jpg)
-+ DDL statements: Results& Saving
++  Results& Saving:
+![alt tag](https://github.com/festusbetd/movie-search/blob/main/Searching%26Saving.jpg)
++ Results When Duplicate file is saved:
+![alt tag](https://github.com/festusbetd/movie-search/blob/main/Searching%26Saving.jpg)
++ Database:
 ![alt tag](https://github.com/festusbetd/movie-search/blob/main/Searching%26Saving.jpg)
 
