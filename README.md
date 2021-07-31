@@ -24,5 +24,5 @@ A web app build with Bootstrap JavaScript (JQuery) using axios client for making
 ```) ENGINE=InnoDB DEFAULT CHARSET=latin1;```
 
 ### Screenshots
-
+![alt tag](http://url/to/img.png)
 
