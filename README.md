@@ -29,7 +29,7 @@ A web app build with Bootstrap JavaScript (JQuery) using axios client for making
 +  Results& Saving:
 ![alt tag](https://github.com/festusbetd/movie-search/blob/main/Searching%26Saving.jpg)
 + Results When Duplicate file is saved:
-![alt tag](https://github.com/festusbetd/movie-search/blob/main/Searching%26Saving.jpg)
+![alt tag](https://github.com/festusbetd/movie-search/blob/main/DuplicateCase.jpg)
 + Database:
-![alt tag](https://github.com/festusbetd/movie-search/blob/main/Searching%26Saving.jpg)
+![alt tag](https://github.com/festusbetd/movie-search/blob/main/Database.jpg)
 
