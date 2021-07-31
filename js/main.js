@@ -136,9 +136,9 @@ var settings = {
   "method": "POST",
   "timeout": 0,
   "crossDomain" : true,
-  "Access-Control-Allow-Origin": "*",
+
   "headers": {
-    "Content-Type": "application/x-www-form-urlencoded"
+    "Content-Type": "application/x-www-form-urlencoded", "Access-Control-Allow-Origin": "*"
   },
   "data": {
     "MovieCode": movieCode,
