@@ -1,0 +1,10 @@
+CREATE TABLE `tbl_dimension_data` (
+  `id`int AUTO_INCREMENT PRIMARY KEY,
+  `MovieCode` varchar(255) DEFAULT NULL,
+  `title` varchar(255) DEFAULT NULL,
+  `plot` varchar(255) DEFAULT NULL,
+  `IMDB` varchar(255) DEFAULT NULL,
+  `rating` varchar(255) DEFAULT NULL,
+  `release_date` varchar(255) DEFAULT NULL,
+  `image` varchar(255) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
