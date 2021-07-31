@@ -1,5 +1,6 @@
 <?php
-header('Access-Control-Allow-Origin: *');
+header("Access-Control-Allow-Origin: *");
+header("Access-Control-Allow-Headers: *");
 $requestMethod = $_SERVER["REQUEST_METHOD"];
 include('../class/Movie.php');
 $movie= new Movie();
@@ -24,7 +25,7 @@ switch($requestMethod) {
 		$movieInfo = $movie->createMovie();
 
 		if(!empty($movieInfo)) {
-			$js_encode = json_encode(array('Code'=>'200','Status'=>FALSE, 'message'=>'Movie saving failed.'), true);
+		//	$js_encode = json_encode(array('Code'=>'200','Status'=>FALSE, 'message'=>'Movie saving failed.'), true);
 	    
         } else {
 			$js_encode = json_encode(array('Code'=>'200','Status'=>TRUE, 'Message'=>'Movie Saved Successfully'), true);

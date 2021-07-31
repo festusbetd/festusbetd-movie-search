@@ -93,7 +93,7 @@ function movieSelected_t(Poster,Title,Plot,imdbID,Ratings,Released){
 movieCode = toAbbr(Title); 
 
  var settings = {
-  "url": "http://3.91.159.200/",
+  "url": "http://localhost:8080/dimension-data-project/movie/create",
   "method": "POST",
   "timeout": 0,
   "headers": {
@@ -111,7 +111,10 @@ movieCode = toAbbr(Title);
 };
 
 $.ajax(settings).done(function (response) {
-  console.log(response);
+  if (response=="Oh noes! There's an error in the query!"){
+    alert("Movie Already Saved")
+  }
+  else
   // alert(response.Code)
   // alert(response.Status)
   alert(response.Message)
@@ -132,13 +135,11 @@ const toAbbr = (str) => {
 movieCode = toAbbr(Title); 
 
 var settings = {
-  "url": "http://3.91.159.200/",
+  "url": "http://localhost:8080/dimension-data-project/movie/create",
   "method": "POST",
   "timeout": 0,
-  "crossDomain" : true,
-
   "headers": {
-    "Content-Type": "application/x-www-form-urlencoded", "Access-Control-Allow-Origin": "*"
+    "Content-Type": "application/x-www-form-urlencoded"
   },
   "data": {
     "MovieCode": movieCode,
@@ -152,9 +153,11 @@ var settings = {
 };
 
 $.ajax(settings).done(function (response) {
-  console.log(response);
-  // alert(response.Code)
-  // alert(response.Status)
+  if (response=="Oh noes! There's an error in the query!"){
+    alert("Movie Already Saved")
+  }
+  else
+  
   alert(response.Message)
 });
 
