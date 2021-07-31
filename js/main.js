@@ -93,7 +93,7 @@ function movieSelected_t(Poster,Title,Plot,imdbID,Ratings,Released){
 movieCode = toAbbr(Title); 
 
  var settings = {
-  "url": "http://localhost:8080/dimension-data-project/movie/create",
+  "url": "http://3.91.159.200/",
   "method": "POST",
   "timeout": 0,
   "headers": {
@@ -132,7 +132,7 @@ const toAbbr = (str) => {
 movieCode = toAbbr(Title); 
 
 var settings = {
-  "url": "http://localhost:8080/dimension-data-project/movie/create",
+  "url": "http://3.91.159.200/",
   "method": "POST",
   "timeout": 0,
   "headers": {
